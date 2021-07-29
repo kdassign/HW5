@@ -1,2 +1,7 @@
-var currentDay = moment().format("MMM Do, YYYY");
-$("date").text(currentDay);
+
+var displayTime = moment();
+
+
+var toDay = displayTime.format("MMMM Do, YYYY"); 
+$("#currentDay").text(toDay);
+
