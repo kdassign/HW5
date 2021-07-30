@@ -22,7 +22,8 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 ## GIF of deployed application
-
+ ! [](HW5DA. gif)
 ## Link to GITHUB page
+https://github.com/kdassign/HW5
 
 ## Link to deployed application
