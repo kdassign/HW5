@@ -13,63 +13,66 @@
   <title>Work Day Scheduler</title>
 </head>
 
+<!--Header that displays what this project is and the date-->
+
 <body>
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
-    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p class="lead">A simple calendar app for scheduling your work day (that was a pain lol)</p>
     <p id="currentDay" class="lead"></p>
   </header>
   <div class="container">
 
-    <div class="row">
+    <!--These are the timeblocks-->
+    <div id="time-9" class="row time-block">
       <div class="col-sm-1"> 9am </div>
       <textarea class="col-md-10 text" id="9"></textarea>
       <button class="saveBtn" onclick="saveButton(9)">❤︎ </button>
     </div>
 
-    <div class="row">
+    <div id="time-10" class="row time-block">
       <div class="col-sm-1"> 10am </div>
       <textarea class="col-md-10 text" id="10"></textarea>
       <button class="saveBtn" onclick="saveButton(10)">❤︎ </button>
     </div>
-    <div class="row">
+    <div id="time-11" class="row time-block">
       <div class="col-sm-1"> 11am </div>
       <textarea class="col-md-10 text" id="11"></textarea>
       <button class="saveBtn" onclick="saveButton(11)">❤︎ </button>
     </div>
-    <div class="row">
+    <div id="time-12" class="row time-block">
       <div class="col-sm-1"> 12pm </div>
       <textarea class="col-md-10 text" id="12"></textarea>
       <button class="saveBtn" onclick="saveButton(12)">❤︎ </button>
     </div>
-    <div class="row">
+    <div id="time-13" class="row time-block">
       <div class="col-sm-1"> 1pm </div>
       <textarea class="col-md-10 text" id="13"></textarea>
       <button class="saveBtn" onclick="saveButton(13)">❤︎ </button>
     </div>
-    <div class="row">
+    <div id="time-14" class="row time-block">
       <div class="col-sm-1"> 2pm </div>
       <textarea class="col-md-10 text" id="14"></textarea>
       <button class="saveBtn" onclick="saveButton(14)">❤︎ </button>
     </div>
-    <div class="row">
+    <div id="time-15" class="row time-block">
       <div class="col-sm-1"> 3pm </div>
       <textarea class="col-md-10 text" id="15"></textarea>
       <button class="saveBtn" onclick="saveButton(15)">❤︎ </button>
     </div>
-    <div class="row">
+    <div id="time-16" class="row time-block">
       <div class="col-sm-1"> 4pm </div>
       <textarea class="col-md-10 text" id="16"></textarea>
       <button class="saveBtn" onclick="saveButton(16)">❤︎ </button>
     </div>
-    <div class="row">
+    <div id="time-17" class="row time-block">
       <div class="col-sm-1"> 5pm </div>
       <textarea class="col-md-10 text" id="17"></textarea>
       <button class="saveBtn" onclick="saveButton(17)">❤︎ </button>
     </div>
   </div>
   </div>
-
+  <!--Javascript libraries -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
