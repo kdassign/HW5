@@ -4,7 +4,7 @@
 This project required me to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
 ## Screenshot 
-![](https://i.ibb.co/Zf0v7jK/notetakerscreen.png)
+![](https://i.ibb.co/0D3kLFg/work-day-scheduler.png)
 
 ## Acceptance Criteria
 
